@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+h2 {
+      margin-bottom: 10px;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 40px;
+}
+
+h3 {
+      font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+h4 {
+      font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+p {
+      font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+img {
+    object-fit: cover;
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-left: 50px;
+}
+
+header {
+    background-image: url(../images/sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0 0 0 / 85%);
+    background-blend-mode: multiply;
+    color: white;
+    font-family:sans-serif;
+    min-height: 100vh;
+}
+
+.navbar {
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    }
+
+.navbar ul {display: flex;
+            list-style: none;
+            font-size: 23px;}
+
+.navbar ul li {
+margin-left: 60px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Banner*/
+
+.banner {
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+.banner h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.banner span {
+height: 5px;
+width: 200px;
+background-color: red;
+display: inline-block;
+}
+
+.wonderful {
+    padding: 30px;
+}
+
+.learn-more {
+
+    color: white;
+    border: 3px solid red;
+    border-radius: 50px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.learn-more:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+}
+
+/*Upcoming Events*/
+
+.event-title {
+
+}
+
+.events-title h2 {
+    text-align: center;
+}
+
+
+.event-title span {
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.event-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+
+.event {
+    padding: 20px;
+    text-align: center;
+    
+   }
+
+.event-box img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 10px 3px;
+}
+
+.event h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+
+}
+
+.event p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.event a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+}
+
+/*Explore the world*/
+
+.explore-background {
+    background-image: url(../images/pexels-jess.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #0000ffa6;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    color: white;
+    font-family:sans-serif;
+    min-height: 100vh;
+} 
+.explore-parent {
+    padding: 100px;
+    display: flex;
+}
+
+.explore-child {
+
+    width: 50%;
+}
+.explore-child h1 {
+    margin-bottom: 10px;
+}
+.explore-child span {
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+.explore-child p {}
+
+.explore-child a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/*Tour*/
+
+.tour-parent {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.tour {}
+.tour h4 {
+    margin: 0;
+}
+.tour span {
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+.tour p {
+    text-align: justify;
+}
+.tour a {
+    text-decoration: none;
+    color: red;
+    letter-spacing: 2px;
+}
+.tour img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.img1 {
+    height: 300px;
+    margin-top: 25px;
+}
+
+.img2 {
+
+    height: 400px;
+    margin-top: 25px;
+
+}
+
+/*Footer*/
+
+footer {
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+.fab {
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+
+
+
+
+
